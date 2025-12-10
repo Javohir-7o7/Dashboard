@@ -22,7 +22,7 @@ const lang = (item) => {
     emit('lang', item)
 }
 onMounted(() => {
-    lang(props.option[0])
+    lang(props.option[1])
 })
 </script>
 <template>

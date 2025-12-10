@@ -14,8 +14,8 @@ import ru from './locales/ru.json'
 import uz from './locales/uz.json'
 const i18n = createI18n({
   legacy: false,
-  locale: 'en',
-  fallbackLocale: 'en',
+  locale: 'ru',
+  fallbackLocale: 'ru',
   messages: {
     en,
     ru,

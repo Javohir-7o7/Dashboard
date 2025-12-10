@@ -97,7 +97,12 @@ const all = () => {
                     </Button>
                 </div>
             </div>
-            <Button :label="t('project1.btn')" pt:label="!font-semibold" class="!font-black !text-lg !bg-transparent hover:!bg-[#34d399] !rounded-2xl" @click="all"/>
+            <Button 
+                :label="t('project1.btn')" 
+                pt:label="!font-semibold" 
+                class="!font-black !text-lg hover:!bg-[#34d399] !rounded-2xl" 
+                @click="all"
+            />
             <h3 v-for="(v, index) in pass" :key="index" :class="v.clas" class="text-black">{{ t(v.label) }}: <span :class="v.sclas">({{ v.shot }})</span></h3>
         </div>
     </div>

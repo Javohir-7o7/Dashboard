@@ -79,7 +79,7 @@ watch(authorization, (newAuthorization, oldAuthorization) => {
                 <label for="username" :class="{ 'textAnimation' : inputCheck }">Имя пользователя</label>
             </FloatLabel>
             <FloatLabel>
-                <Password v-model="inputValue.password" :feedback="false" class="focus:border-green-500" inputId="password" inputClass="!w-full !bg-[#ffffff00] !outline-none !border-x-0 !border-t-0 !border-b-[1px] !rounded-none !border-gray-800 focus:!border-green-500" toggleMask />
+                <Password v-model="inputValue.password" :feedback="false" class="!w-[233px] focus:border-green-500" inputId="password" inputClass="!w-full !bg-[#ffffff00] !outline-none !border-x-0 !border-t-0 !border-b-[1px] !rounded-none !border-gray-800 focus:!border-green-500" toggleMask />
                 <label for="password" :class="{ 'textAnimation' : inputCheck }">Пароль</label>
             </FloatLabel>
             <Button label="Вход" class="w-[233px] !font-bold !text-lg !duration-500 hover:!bg-transparent hover:!text-[#38bd7e] !py-1 active:!bg-[#38bd7e50]" rounded  @click="btnClick" />

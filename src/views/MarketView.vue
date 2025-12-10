@@ -35,7 +35,7 @@ const btn = () => {
 
 const axiosProduct = async () => {
     try {
-        const response = await axios.get('https://javohir-max.github.io/host_api/product.json');
+        const response = await axios.get('https://javohir-7o7.github.io/host_api/product.json');
         products.value = response.data;
     } catch (error) {
         console.log(error);
