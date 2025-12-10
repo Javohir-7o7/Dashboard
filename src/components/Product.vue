@@ -12,7 +12,7 @@ const images = ref([]);
 const products = ref([])
 const axiosProduct = async () => {
     try {
-        let response = await axios.get('https://javohir-max.github.io/host_api/product.json');
+        let response = await axios.get('https://javohir-7o7.github.io/host_api/product.json');
         let product = response.data.find(p => p.id === Number(props.id));
         if (product) {
             products.value = product
