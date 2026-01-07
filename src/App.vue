@@ -27,7 +27,8 @@ const secondaryLink = [
     {to: '/tictac', name: 'tictac', icon: 'fluent:games-16-regular', context: 'project7.title'},
     {to: '/animation', name: 'animation', icon: 'mdi:animation-play', context: 'project8.title'},
     {to: '/uploadImg', name: 'uploadImg', icon: 'mage:image-upload', context: 'project9.title'},
-    {to: '/videos', name: 'videoView', icon: 'tabler:api', context: 'project10.title'}
+    {to: '/videos', name: 'videoView', icon: 'tabler:api', context: 'project10.title'},
+    {to: '/numberCars', name: 'numberCars', icon: 'carbon:character-whole-number', context: 'номеры автомобилей'}
 ]
 const communityActive = ref(false)
 const mediaScren = ref(false)
