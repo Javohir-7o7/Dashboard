@@ -117,6 +117,12 @@ const router = createRouter({
             name: 'videoView',
             component: () =>
                 import ('../views/PlayVideoView.vue')
+        },
+        {
+            path: '/numberCars',
+            name: 'numberCars',
+            component: () =>
+                import ('../views/NumberCars.vue')
         }
     ]
 })
